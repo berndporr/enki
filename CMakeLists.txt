@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.11)
+cmake_minimum_required(VERSION 3.20)
 
 project(Enki)
 
@@ -26,7 +26,6 @@ if (Qt5Widgets_FOUND AND Qt5OpenGL_FOUND)
 	add_subdirectory(viewer)
 endif()
 
-add_subdirectory(python)
 add_subdirectory(tests)
 add_subdirectory(examples)
 
